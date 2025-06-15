@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <h1>🌦 Global Weather App</h1>
+    <input type="text" id="cityInput" placeholder="Enter any city (e.g., London, Delhi)" />
+    <button onclick="getWeather()">Get Weather</button>
+    <button onclick="getWeatherByLocation()">📍 Use My Location</button>
+    <div id="weatherDisplay" class="weather-display"></div>
+    <h3>5-Day Forecast</h3>
+    <div id="forecast" class="forecast-container"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
